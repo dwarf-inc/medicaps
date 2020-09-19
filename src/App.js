@@ -11,11 +11,15 @@ import NotFound from "./pages/404";
 import AnimatedPage from "./pages/animatedPage/animatedPage";
 import Faq from "./pages/faq";
 
-// CSS Imports
-import "./css/header.scss";
-import "./css/index.css";
-import "./css/product.scss";
-import "./css/faq.scss";
+// // CSS Imports
+// import "./css/header.scss";
+// import "./css/index.css";
+// import "./css/product.scss";
+// import "./css/faq.scss";
+
+// Test imports
+import Test from "./Test";
+import "./test.scss";
 
 function App() {
   return (
@@ -43,7 +47,8 @@ function App() {
           <SingleProduct />
         </Route>
         <Route exact path="/">
-          <Home />
+          {/* <Home /> */}
+          <Test />
         </Route>
         <Route path="*">
           <NotFound />
