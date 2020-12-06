@@ -25,7 +25,7 @@ const Home = () => {
               <h1>
                 <Typewriter
                   options={{
-                    strings: ["Dwarf", "By You For You"],
+                    strings: ["Medicaps", "By You For You"],
                     autoStart: true,
                     loop: true,
                     delay: 100,
@@ -45,27 +45,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* <Header title="Home" backgroundImage="home.jpg">
-        <div className="sub-heading">
-          <h1>
-            <Typewriter
-              options={{
-                strings: ["Dwarf", "By You For You"],
-                autoStart: true,
-                loop: true,
-                delay: 100,
-                cursor: ".",
-                start: 3000,
-              }}
-            />
-          </h1>
-          <h2>Building Smart </h2>
-          <h2>
-            India<span className="dot">.</span>
-          </h2>
-        </div>
-      </Header> */}
 
         <Quote />
 
