@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FixedItems from "./FixedItems";
-import logo from "../images/logo.png";
+import logo from "../images/medicaps_logo_small.png";
 import logoWebp from "../images/logo.webp";
 import { Link } from "react-router-dom";
 import { motion, useAnimation } from "framer-motion";
@@ -86,7 +86,7 @@ const Header = () => {
             <h1 className="logo">
               <Link to="/">
                 <picture>
-                  <source srcset={logoWebp} type="image/webp" />
+                  {/* <source srcset={logoWebp} type="image/webp" /> */}
                   <img src={logo} alt="logo" />
                 </picture>
               </Link>
