@@ -6,7 +6,7 @@ const FixedItems = () => {
       <div className="social-icons">
         <div className="facebook social-stag">
           <a
-            href="https://www.facebook.com/Medicapcare"
+            href="https://www.facebook.com/Medicapscare"
             target="_blank"
             rel="noopener noreferrer"
           >
